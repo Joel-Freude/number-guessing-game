@@ -6,7 +6,7 @@ attempts = 0
 print("Welcome to my number guessing game!")
 input("Press any key to start playing ")
 
-number1 = random.randint(0, 10)
+number1 = random.randint(0, 100)
 
 while True:
     guess = int(input("Guess a random number between 0 and 10. "))
